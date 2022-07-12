@@ -1,0 +1,12 @@
+The purpose of my application is automatic door opener application to be used to open large doors or power doors. Since the LDR is exposed to external light, it may turn on and off automatically due to ambient light. Therefore, the LDR is covered with a cover and the resistance value will be high, so the door will be closed. When the cover on it is removed, the resistance value that will be exposed to the LDR light will decrease and the door will open.
+
+The door will be opened and closed with the help of servo motor. The buzzer will be active for a while when the door is opened. It can be seen on the LCD screen whether the door is open or closed.
+
+
+There is a 7-segment display so that the door does not close immediately for safety when closing, and the door will close after the number value is 9.
+
+When the door is in closing or opening mode, the door closes and opens after the value in the 7 segment is full. If we press the button, without waiting for the time to expire, the door will be closed if it will be closed directly, and if it will be opened, it will open. The goal here is to avoid waiting.
+
+It is also shown with two LEDs and RGB that the door is open or closed. When the door is closed, the RGB color is red and the red LED is active. When the door is open, RGB is green and blue led is active.
+
+Basically parking lot, market etc. It is aimed to make a difference to the project by indicating that it is open or closed with components such as LEDs and LCD, to be done automatically instead of applying power in large doors, to provide security with additional components and to indicate with sound.
